@@ -1,0 +1,14 @@
+
+subprojects {
+  
+  repositories {
+    mavenCentral()
+  }
+  
+  version = '1.0.0'
+  
+}
+
+
+task wrapper(type: Wrapper)
+
